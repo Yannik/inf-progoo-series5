@@ -1,3 +1,5 @@
+package Velocity;
+
 public class Ship extends Vehicle {
 
     private final String name;

@@ -1,3 +1,5 @@
+package Velocity;
+
 public class Car extends Vehicle {
     protected int ps;
     public Car(String name, int ps) {

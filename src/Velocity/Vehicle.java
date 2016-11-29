@@ -1,3 +1,5 @@
+package Velocity;
+
 public abstract class Vehicle {
     protected int power;
     protected String name;
