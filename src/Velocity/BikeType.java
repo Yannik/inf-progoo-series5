@@ -1,6 +1,6 @@
 package Velocity;
 
-public enum  Bikes {
+public enum BikeType {
 
     TOPS("Hands on the tops", 277.376, 3.078, 0.4891),
     DROPS("Hands on the drops", 399.611, 4.4226, 0.3397),
@@ -9,7 +9,7 @@ public enum  Bikes {
     public final String name;
     public final double a, b, c;
 
-    Bikes(String name, double a, double b, double c) {
+    BikeType(String name, double a, double b, double c) {
 
         this.name = name;
         this.a = a;

@@ -5,10 +5,8 @@ public class RowingBoat extends Vehicle {
     private final int rowers;
     private final double width;
     private final double draught;
-    private static final double KMH_PER_KNOT = 1.85;
 
     public RowingBoat(String name, int rowers, double width, double draught) {
-
         this.name = name;
         this.rowers = rowers;
         this.width = width;

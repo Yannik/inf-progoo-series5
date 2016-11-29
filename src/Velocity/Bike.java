@@ -2,8 +2,9 @@ package Velocity;
 
 public class Bike extends Vehicle {
 
-    protected Bikes bike;
-    public Bike(Bikes bike) {
+    protected BikeType bike;
+
+    public Bike(BikeType bike) {
         this.bike = bike;
     }
     @Override

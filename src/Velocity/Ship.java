@@ -6,7 +6,6 @@ public class Ship extends Vehicle {
     private final int ps;
     private final int waterDisplacement;
     private final int length;
-    private static final double KMH_PER_KNOT = 1.85;
 
     public Ship(String name, int ps, int waterDisplacement, int length) {
         this.name = name;

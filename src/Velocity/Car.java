@@ -1,7 +1,9 @@
 package Velocity;
 
 public class Car extends Vehicle {
+
     protected int ps;
+
     public Car(String name, int ps) {
         this.name = name;
         this.ps = ps;
