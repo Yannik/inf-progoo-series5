@@ -10,7 +10,7 @@ public class ComplexNumber {
      * imaginary part of the ComplexNumber
      */
     private double im;
-    
+
     /**
      * initializes the real and imaginary parts with 0
      */
@@ -124,6 +124,6 @@ public class ComplexNumber {
      * @return string representation of the ComplexNumber
      */
     public String toString() {
-        return getReal() + " + " + getImaginary();
+        return this.getReal() + " + " + this.getImaginary();
     }
 }
