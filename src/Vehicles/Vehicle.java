@@ -1,4 +1,4 @@
-package Velocity;
+package Vehicles;
 
 public abstract class Vehicle {
     protected int power;

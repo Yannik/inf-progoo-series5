@@ -1,4 +1,4 @@
-package Velocity;
+package Vehicles;
 
 public enum BikeType {
 

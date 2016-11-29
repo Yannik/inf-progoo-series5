@@ -1,4 +1,4 @@
-package Velocity;
+package Vehicles;
 
 public class RowingBoat extends Vehicle {
     private final String name;

@@ -1,4 +1,4 @@
-package Velocity;
+package Vehicles;
 
 public class Ship extends Vehicle {
 
