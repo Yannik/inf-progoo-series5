@@ -3,13 +3,13 @@ public class ComplexNumber {
     /**
      * real part of the ComplexNumber
      */
-    private double re;
+    private final double re;
 
 
     /**
      * imaginary part of the ComplexNumber
      */
-    private double im;
+    private final double im;
 
     /**
      * initializes the real and imaginary parts with 0
