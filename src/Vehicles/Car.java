@@ -12,8 +12,9 @@ public class Car extends Vehicle {
 
     @Override
     public double getMaximumVelocity() {
-        return Math.cbrt(2*power/(1.3*2.5*0.35)) * KMH_PER_MPS;
+        return super.getMaximumVelocity(power, 1.3, 2.5, 0.35);
     }
+
 
     @Override
     public String getDescription() {

@@ -27,7 +27,7 @@ public class Ship extends Vehicle {
 
     @Override
     public double getMaximumVelocity() {
-        return Math.cbrt(2*power/(1028*(waterDisplacement/length)*0.3))*KMH_PER_MPS;
+        return super.getMaximumVelocity(power, 1028, waterDisplacement/length, 0.3);
     }
 
 }

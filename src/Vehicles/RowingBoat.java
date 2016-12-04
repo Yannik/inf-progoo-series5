@@ -11,6 +11,7 @@ public class RowingBoat extends Vehicle {
         this.rowers = rowers;
         this.width = width;
         this.draught = draught;
+        this.power = rowers * 100;
     }
 
     @Override
@@ -26,6 +27,7 @@ public class RowingBoat extends Vehicle {
 
     @Override
     public double getMaximumVelocity() {
-        return Math.cbrt((2*100*rowers)/(1028*(1.0/2)*width*draught*0.3))*KMH_PER_MPS;
+        return super.getMaximumVelocity(this.power, 1028, 0.5*width*draught, 0.3);
     }
+
 }
